@@ -7,18 +7,20 @@
     <link rel="icon" type="image/png" href="heart.png">
 </head>
 <body>
-<audio autoplay>
-<source scr="Song.mp3">
-    
+<audio id="bg" loop>
+  <source src="Song.mp3" type="audio/mpeg">
 </audio>
 <!-- Hearts background -->
 <div class="hearts-container"></div>
+
+<button onclick="document.getElementById('bg').play()"
+style="position:absolute; bottom:400px; left:660px;">CLICK ME FIRST EEA</button>
 
 <!-- SECTION 1: Welcome -->
 <section id="welcome" class="active">
     <h1>HAPPIEST BIRTHDAY EVER TO MY SWEET BABY GIRLLLL  🩷🩷🩷</h1>
     <h1>THIS IS A WEBSITE FOR YOUUUUU </h1>
-    <button onclick="show('card')">CLICK ME EEA</button>
+    <button onclick="show('card')" style="position:absolute; top:500px; right:646px;">THEN CLICK MEEEEEE</button>
 </section>
 
 <!-- SECTION 2: Digital Birthday Card -->
@@ -110,5 +112,6 @@ You deserve the whole  entire world.</p>
 <script src="script.js"></script>
 </body>
 </html>
+
 
 
