@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday 🩷</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Hearts background -->
+<div class="hearts-container"></div>
+
+<!-- SECTION 1: Welcome -->
+<section id="welcome" class="active">
+    <h1>HAPPIEST BIRTHDAY EVER TO MY SWEET BABY GIRLLLL  🩷🩷🩷</h1>
+    <h1>THIS IS A WEBSITE FOR YOUUUUU </h1>
+    <button onclick="show('card')">CLICK ME EEA</button>
+</section>
+
+<!-- SECTION 2: Digital Birthday Card -->
+<section id="card">
+    <h1>BIRTHDAY CARDDDD</h1>
+    <p style="text-align: center; line-height: 1.6; max-width: 600px; margin: 0 auto;">My beautiful girllll, happiest birthday ever to you YOU TURNED 17 WOOHOO. I love you the most in the entire world
+        you're my bestest friend, my wife, my girl, my baby and my everything Thank you for being part of my everyday. Thank you 
+        for making me the happiest guy in the world. Thank you for everything you do to me. You geniunley make me the happiest person on earth
+        and you make my life better. You make it have a good taste and have a meaning. You make me have a goal in my life, even though, I achived the best 
+        achivment anyone could ever achive, which is being with such a perfect sweet girl like you are. Enjoy being 17. Enjoy your day. Enjoy this website. Enjoy you life. And i pinky promise you I will be there for you on every birthday youre gonna ever have.
+        I wish I could  give you the whole world. I wish I could give you the biggest birthday hug you'll ever have. AND I WILLLLLLLL. ENJOYYYY BIG GIRLLLL🩷🩷🩷🩷🩷
+        
+        
+        
+        </p>
+    <button onclick="show('love100')">CLICK MEEEEE</button>
+</section>
+
+<!-- SECTION 3: 100 Things I Love -->
+<section id="love100">
+    <h1>100 Things I Love About YOU 🩷</h1>
+    <p id="loveText">Click MWAH  </p>
+    <button onclick="nextLove()">MWAH</button>
+    <br><br>
+    <button onclick="show('timeline')">Continue ➜</button>
+</section>
+
+<!-- SECTION 4: Memory Scratch Card (REPLACE old #timeline section) -->
+<section id="timeline">
+    <h1>HOW LONG WE'VE BEEN TOGETHER FOR 💞</h1>
+
+    <div id="timerBox">
+        <h2 id="timeTogether">Loading...</h2>
+    </div>
+
+    <button onclick="show('quiz')">CLICK MEEEE EEEAAA</button>
+</section>
+
+
+<!-- SECTION 5: Quiz (NEW) -->
+<section id="quiz">
+    <h1>LOVEY QUIZZZZ 💘</h1>
+
+    <div id="quizBox">
+        <h2 id="quizQuestion">Loading...</h2>
+        
+        <div id="quizOptions"></div>
+
+        <p id="quizFeedback"></p>
+    </div>
+
+    <button id="skipBtn" onclick="finishQuiz()">CLICK ME WHEN YOU'RE DONE</button>
+</section>
+
+
+<!-- SECTION 6: Break The Hearts Game (REPLACE old #notes section) -->
+<section id="notes">
+    <h1>Break the Hearts 💘</h1>
+    <p class="game-instructions">Pop the floating hearts to reveal little messages I wrote for you. Pop them all for a final surprise.</p>
+
+    <div class="hearts-game">
+        <div id="heartsArea" class="hearts-area"></div>
+        <div id="heartCounter" class="heart-counter">0 / 8</div>
+    </div>
+
+    <div id="finalHeartMsg" class="final-heart-msg" style="display:none;">
+        <h2>You're amazing sweet baby</h2>
+        <p>Thank you for every moment. I love you more than words could ever explain.<br> You are the most amazing human on this earth and im so glad to have such person in my life</p>
+        
+    </div>
+    <button onclick="show('final')">DONT CLICK ME UNTIL YOU POP THEM ALL </button>
+
+    
+</section>
+
+
+<!-- SECTION 7: Final Message -->
+<section id="final">
+    <h1>My Final Message to youuu</h1>
+    <p>Thank you for being in my life.<br>
+    I love you more than I can ever explain.<br>
+    Happy Birthday my sweet girl I hope you will have a wonderful year and it will be filled with happiness<br>Thank you for everything you do to me
+. Thank you for making me happy every single day. <br> Thank you for making me enjoy and love life.<br> I love you so so much and I hope this website that I made for you 
+made you so so happy and was a cute surprise that you liked.<br> I love you more than anything. I love you the most in the whole universe. You're my sweet girl that I love so so much.<br> 
+MMMMMMMMMMMMMMMMMMWWWWWWWWWWWWWWWWWWWWWWWWWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHH<br>
+You deserve the whole  entire world.</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
